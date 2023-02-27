@@ -17,28 +17,36 @@
     <style>
         @import url('https://fonts.cdnfonts.com/css/gilroy-bold');
     </style>
-    <div class="main">
+    <div class="wrapper">
+    <header class="header__main">
         <div class="container">
-            <div id="main">
+            <div id="line">
                 <div class="main-line">
-                    <div class="nav">
-                        <a class="nav-item" href="#main">Home</a>
+                    <nav class="nav-bar">
+                        <ul type="none" class="nav-list">
+                            <li><a class="nav-item" href="#main">Home</a></li>
+                            <li><a class="btn" href="#about">About me</a></li>
+                            <li><a class="btn" href="#skills">Skills</a></li>
+                            <li><a class="btn" href="#portfolio">Portfolio</a></li>
+                            <li><a class="btn" href="#contacts">Contacts</a></li>
+                        </ul>
+                        <!-- <a class="nav-item" href="#main">Home</a>
                         <a class="btn" href="#about">About me</a>
                         <a class="btn" href="#skills">Skills</a>
                         <a class="btn" href="#portfolio">Portfolio</a>
-                        <a class="btn" href="#contacts">Contacts</a>
-                    </div>
+                        <a class="btn" href="#contacts">Contacts</a> -->
+                    </nav>
                 </div>
             </div>
-            <div class="border"></div>
-            <div class="main-subtext">
-                <div class="subtext">
-                    <div class="subtext-line">
+            <div class="header__border"></div>
+            <div class="header__main-subtext">
+                <div class="header__subtext">
+                    <div class="subtext__title">
                         Denis <br> Novik</div>
                 </div>
             </div>
             <div class="text">
-                <div class="text-line">
+                <div class="header__about">
                     UX | UI designer <br> 24 years old, Minsk</div>
             </div>
 
@@ -47,116 +55,115 @@
                     RU | ENG</div>
             </div>
 
-            <div class="main-logotipe">
-                <div class="main-logo">
+            <div class="header__main-logotipe">
+                <div class="header__main-logo">
                     <img src="assets/images/b2.png" alt="">
                 </div>
             </div>
         </div>
-    </div>
+    </header>
 
-    <div class="down-main">
+    <main class="main__header">
         <div id="about">
             <div class="container">
 
-                <div class="down-line">
-                    About me</div>
+                <h1 class="main__title">
+                    About me</h1>
 
-                <div class="text-down-main">
+                <section class="main__info">
 
-                    Hi, I'm Denis – UX/UI designer from Minsk.
+                <article>Hi, I'm Denis – UX/UI designer from Minsk.</article> 
                     <br>
-                    I'm interested in design and everything connected with it.
+                    <article> I'm interested in design and everything connected with it.</article> 
                     <br>
+                    <article> I'm studying at courses "Web and mobile design
+                    interfaces" in IT-Academy.</article>
                     <br>
-                    I'm studying at courses "Web and mobile design
-                    interfaces" in IT-Academy.
+                    <article>Ready to implement excellent projects</article>
                     <br>
+                    <article>with wonderful people.</article>
                     <br>
-                    Ready to implement excellent projects
-                    <br>
-                    with wonderful people.
-                    <br>
-                </div>
+                </section>
             </div>
         </div>
-    </div>
+    </main>
 
-    <div class="skills-main">
+    <section class="main__skills">
         <div class="container">
             <div id="skills"></div>
-            <div class="skills-line">
+            <h1 class="skills-line">
                 Skills
-            </div>
-            <div class="text">
-                <div class="text-work">
+            </h1>
+                <h5 class="skills__subtitle">
                     I work in such programs as
-                </div>
-            </div>
+                </h5>
             <div class="icons">
-                <img src="assets/images/abp.png">
-                <img src="assets/images/abillustrator.png">
-                <img src="assets/images/abAfterEffetcs.png">
-                <img src="assets/images/Figma.png">
+                <img class="main__icons"  src="assets/images/abp.png">
+                <img class="main__icons"  src="assets/images/abillustrator.png">
+                <img class="main__icons"  src="assets/images/abAfterEffetcs.png">
+                <img class="main__icons"  src="assets/images/Figma.png">
             </div>
 
         </div>
-    </div>
+    </section>
 
-    <div class="tell-us-about-yourself">
+    <section class="main__about">
         <div class="container">
             <div id="portfolio">
                 <div class="text-portfolio">
                     Portfolio
                 </div>
-                <div class="Portfolio">
+                <article class="Portfolio">
                     <img src="assets/images/Portfolio.png">
-                </div>
-                <div class="text-about">
-                    Online fashion store - Homepage
-                </div>
-                <div class="Reebok">
+                </article>
+                <h6 class="footer__text-about">
+                <a class="footer__text" href="#">Online fashion store - Homepage</a> 
+                </h6>
+                <article class="Reebok">
                     <img src="assets/images/reebok_web.png">
-                </div>
-                <div class="text-reebok">
-                    Reebok Store - Concept
-                </div>
-                <div class="camera">
+                </article>
+                <h6 class="text-reebok">
+                <a class="footer__text"  href="#">Reebok Store - Concept</a> 
+                </h6>
+                <article class="camera">
                     <div class="camera-img">
                         <img src="assets/images/camera.png">
                     </div>
-                    <div class="camera-text">
-                        Braun Landing Page - Concept
-                    </div>
-                </div>
+                    <h6 class="camera-text">
+                    <a class="footer__text"  href="#">Braun Landing Page - Concept</a> 
+                    </h6>
+                </article>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="contacts-end">
+    <footer class="footer__main">
         <div class="container">
             <div id="contacts">
-                <div class="contacts-text">
+                <h1 class="footer__contacts">
                     Contact
-                </div>
-                <div class="continuation-text">
+                </h1>
+                <h6 class="contact__text">
                     Want to know more or just chat? <br> You are welcome!
-                </div>
+                </h6>
                 <div class="button">
-                    Send message</div>
-                <div class="icons-end">
-                    <img src="assets/images/in.png">
-                    <img src="assets/images/inst.png">
-                    <img src="assets/images/be.png">
-                    <img src="assets/images/basket.png">
+                <a class="footer__button" href="#"><h4 class="test">Send message</h4></a>
+            </div>
+
+                <div class="footer__icons-end">
+                    <img class="footer__icons" src="assets/images/in.png">
+                    <img class="footer__icons" src="assets/images/inst.png">
+                    <img class="footer__icons" src="assets/images/be.png">
+                    <img class="footer__icons" src="assets/images/basket.png">
                 </div>
-                <div class="likeME">
+
+                <h6 class="likeME">
                     Like me on <br> LinkedIn, Instagram, Behance, Dribble
-                </div>
+                </h6>
             </div>
         </div>
-    </div>
-
+    </footer>
+</div>
 </body>
 
 </html>

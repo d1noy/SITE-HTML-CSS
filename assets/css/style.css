@@ -7,11 +7,9 @@
 body {
     margin: 0;
     background: #FFFFFF;
-    
-    
 }
 
-.main {
+.header__main {
     display: flex;
     justify-content:center;
 }
@@ -21,13 +19,20 @@ body {
     margin-left: 130px
 }
 
+
+
+.nav-list {
+    display: flex;
+    margin-left: -50px;
+}
+
 .nav-item { 
     color: #000;
     text-decoration: none;
     font-size: 18px;
     margin: 60.65px;
     font-family: 'Gilroy-Bold', sans-serif;
-    line-height: 22px
+    line-height: 22px;
 }
 
 .btn{
@@ -43,7 +48,7 @@ body {
     color: #000;
 }
 
-.border {
+.header__border {
     margin-top: 31px;
     margin-bottom: 39px;
     margin-left: 170px;
@@ -52,7 +57,7 @@ body {
     border: 1px solid #828282
 }
 
-.subtext-line {
+.subtext-title {
     font-family: 'Gilroy-Bold', sans-serif;
     margin-bottom: 30px;
     margin-top: 39px;
@@ -72,7 +77,7 @@ body {
     text-align: center
 }
 
-.text-line {
+.header__about {
     
     font-family: 'Gilroy-Medium', sans-serif;
     margin-top: -70px;
@@ -83,12 +88,12 @@ body {
     line-height: 22px
 }
 
-.main-logo {
+.header__main-logo {
     margin-left: 130px;
     margin-right: 250px
 }
 
-.down-main {
+.main__header {
     display: flex;
     justify-content:center;
     background-color: #F6F6F6;;
@@ -97,7 +102,7 @@ body {
     
 }
 
-.down-line {
+.main__title{
     font-family: 'Gilroy-Bold', sans-serif;
     margin-top: 120px;
     margin-right: 100px;
@@ -106,7 +111,7 @@ body {
     text-align: center
 }
 
-.text-down-main {
+.main__info {
     text-align: center;
     margin-top: 17.69px;
     margin-right: 85px;
@@ -118,7 +123,13 @@ body {
     text-align: center
 }
 
-.skills-main {
+.main__icons {
+    margin-right: 45px;
+    margin-left: 25px;
+    padding-top: 15px;
+}
+
+.main__skills {
     font-family: 'Gilroy-Bold', sans-serif;
     margin-top: 91px;
     margin-right: 630.74px;
@@ -135,7 +146,7 @@ body {
     line-height: 42px
 }
 
-.text-work { 
+.skills__subtitle { 
     font-family: 'Gilroy-Medium';
     font-size: 18px;
     line-height: 22px
@@ -146,15 +157,17 @@ body {
     margin-left: 50px;
     margin: 82px;
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
 
-.tell-us-about-yourself{
-    background-color: #F6F6F6;;
+
+
+.main__about{
+    background-color: #F6F6F6;
     padding-right: 70px;
     display: flex;
-    justify-content: center
-    
+    justify-content: center;
+
 }
 
 .text-portfolio {
@@ -168,7 +181,7 @@ body {
 
 }
 
-.text-about {
+.footer__text-about {
     margin-top: 44.88px;
     margin-bottom: 99.09px;
 
@@ -180,6 +193,11 @@ body {
 
     text-align: center;
     text-decoration-line: underline;
+}
+
+.footer__text {
+    text-decoration: none;
+    color: black;
 }
 
 .text-reebok {
@@ -206,13 +224,13 @@ body {
     text-decoration-line: underline;
 }
 
-.contacts-end {
+.footer__main {
     margin-top: 114.24px;
     display: flex;
     justify-content: center
 }
 
-.contacts-text {
+.footer__contacts {
     margin-bottom: 20.03px;
 
 
@@ -222,7 +240,7 @@ body {
     text-align: center;
 }
 
-.continuation-text {
+.contact__text {
     margin-bottom: 29.6px;
     font-family: 'Gilroy-Medium';
     font-size: 18px;
@@ -231,14 +249,13 @@ body {
 }
 
 .button {
-    padding-top: 13px;
-    padding-bottom: 6px;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding-top: 0.1px;
+    padding-bottom: 0px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 15px;
     margin-bottom: 79.78px;
-    color: #FFFFFF;
     background-color: #000;
-    text-decoration: none;
     font-family: 'Gilroy-Bold';
     font-size: 18px;
     line-height: 22px;
@@ -247,11 +264,29 @@ body {
     text-align: center;
 }
 
+.footer__button {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.test {
+    position: relative;
+    top: -14px;
+}
+
 .button {border-radius: 20px;}
 
-.icons-end{
-margin-left: 50px;
+.footer__icons-end{
+margin-left: 90px;
+margin-right: 25px;
+
 }
+
+.footer__icons {
+    margin-right: 61px;
+}
+
+
 
 .likeME{
     margin-top: 45.06px;
